@@ -175,7 +175,7 @@ void Graph::prim ()
             if ( matrix[u*V+v] && mtset[v] == 0 && matrix[u*V+v] < key[v]){
                 parent[v] = u;
                 key[v] = matrix[u*V+v];
-                tmp->add_edge_str(indexes[u],indexes[v],key[v]);
+             
             }
                 
         }
